@@ -1,0 +1,58 @@
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+    box-sizing: border-box;
+}
+
+.create-Acc-form-container{
+    
+    width: 100%;
+    height: 100vh;
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgb(154,58,180);
+    background: linear-gradient(4deg, rgba(154,58,180,1) 0%, rgba(29,180,253,1) 50%, rgba(252,176,69,1) 100%); ;
+    
+}
+.create-Acc-form-content{
+  background-color: aliceblue;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    width: 35%;
+
+}
+@media only screen and (max-width: 600px){
+    .create-Acc-form-content{
+        width: 95%;
+    }
+        
+}
+ .create-Acc-form-content form{
+
+margin-top: 10px;
+   
+ 
+
+} 
+.create-Acc-form-content form p{
+    margin-left: 10px;
+}
+.create-Acc-form-content form p a{
+    margin-left: 5px;
+    color: black;
+}
+.top{
+    margin: 10px
+}
+.tp{
+ margin:  1px;
+}
+
+
+
+

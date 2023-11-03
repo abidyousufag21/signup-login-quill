@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account Form</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="create-Acc-form-container">
+        <h1 style="color: rgb(14, 112, 198);">Create Free Account</h1>
+    
+        <div class="create-Acc-form-content">
+
+             <form onsubmit="registrationForm()">
+                 <div class="mb-3 top">
+                  <label class="form-label">First Name</label>
+                     <input type="text" class="form-control" id="firstName" placeholder="Enter your First Name">
+                 </div>
+                 <div class="mb-3 top">
+                     <Label class="form-label">Last Name</Label>
+                     <input type="text" class="form-control" id="lastName" placeholder="Enter your Last Name">
+     
+                 </div>
+                 <div class="mb-3 top">
+                     
+                     <Label class="form-label">Email Address</Label>
+                     <input type="email" class="form-control" id="email" placeholder="Enter your Email Address">
+                 </div>
+                 <div class="mb-3 top">
+                     
+                     <Label class="form-label">Phone Number</Label>
+                     <input type="number" class="form-control" id="phoneNumber" placeholder="Enter your Phone Number">
+                 </div> 
+     
+                 <div class="row tp">
+                     <div class="col-md-6">
+                         <div class="mb-3">
+                             <label class="form-label">Password</label>
+                             <input type="password" class="form-control" id="password" placeholder="Enter your password">
+                         </div>
+                     </div>
+                     
+                        <div class="col-md-6">
+                            <div class="mb-3">
+                                 <label class="form-label">Confirm Password</label>
+                                 <input type="password" class="form-control" id="confirmPassword" placeholder="Enter your confirm password">
+                            </div>
+                        </div>
+                     
+                     
+                 </div>
+                 <button type="submit" class="btn btn-primary top" id="registered" onclick="registrationForm()">Register</button>
+                 <p>already have an Account?<a href="login.html">Sign In</a></p>
+                 
+            </form>
+     
+        </div>
+     
+        
+  
+    </div>
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="app.js"></script> 
+</body>
+</html>
